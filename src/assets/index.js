@@ -30,10 +30,8 @@ import firebase from "./tech/firebase.png";
 
 import iiitdmj from "./company/iiitdmj.png";
 import purpletutor from "./company/purpletutor.png";
+import myRik from "./company/myRik.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import twitterClone from "./twitter-clone.png";
 import amazonClone from "./amazon-clone.png";
 import medigram from "./medigram.png";
@@ -65,9 +63,7 @@ export {
   threejs,
   iiitdmj,
   purpletutor,
-  carrent,
-  jobit,
-  tripguide,
+  myRik,
   bootstrap,
   mui,
   cpp,

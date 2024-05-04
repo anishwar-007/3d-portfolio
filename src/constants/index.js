@@ -17,9 +17,7 @@ import {
   docker,
   iiitdmj,
   purpletutor,
-  carrent,
-  jobit,
-  tripguide,
+  myRik,
   threejs,
   bootstrap,
   mui,
@@ -146,6 +144,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Product Engineer Intern",
+    company_name: "MyRik",
+    icon: myRik,
+    iconBg: "#ffffff",
+    date: "March 2024 - May 2024",
+    points: [
+      "Spearheaded the development of an end-to-end MyRik delivery application using Node.js, Firebase, Flutter, Dart and Google Maps APIs, achieved 30% uplift in user engagement.",
+      "Designed ride-booking functionality with Google Maps, optimizing API calls by 40% for a 60% cost reduction.",
+      "Track app crashes & user behavior across 3 apps & APIs with integrated Crashlytics & Analytics. Gain insights to fix bugs, understand user journeys, and optimize app performance.",
+      "Championed collaborative efforts to enhance the frontend UI, achieving a 40% boost in user satisfaction.",
+    ],
+  },
+  {
     title: "Fullstack Developer",
     company_name: "Purpletutor",
     icon: purpletutor,
@@ -164,7 +175,7 @@ const experiences = [
     company_name: "IIITDM Jabalpur",
     icon: iiitdmj,
     iconBg: "#ffffff",
-    date: "Jan 2023 - April 2023",
+    date: "Jan 2022 - April 2022",
     points: [
       "Led the Internal Works Department team in the development and maintenance of the Fusion project.",
       "Oversaw project planning, code reviews, and testing to ensure the timely delivery of high-quality features and functionality.",

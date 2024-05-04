@@ -7,7 +7,7 @@ import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -36,7 +36,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => {
                 setActive(link.title);
-                // window.scrollTo(0, 0);
+                  window.scrollTo({ top: link.id === "contact" ? (document.documentElement.scrollHeight - 200) : (index+1)*800, behavior: "smooth" });
               }}
             >
               <Link to={`#${link.id}`}> {link.title} </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? close : menu}
+            src={toggle ? menu : close}
             alt="menu"
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
@@ -66,10 +66,10 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
-                    // window.scrollTo(0, 0);
+                    window.scrollTo({ top: link.id === "contact" ? (document.documentElement.scrollHeight - 200): (index+1)*1200, behavior: "smooth" });
                   }}
                 >
-                  <Link hreto={`#${link.id}`}> {link.title} </Link>
+                  <Link to={`#${link.id}`}> {link.title} </Link>
                 </li>
               ))}
             </ul>
