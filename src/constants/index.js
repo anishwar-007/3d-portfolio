@@ -31,6 +31,7 @@ import {
   netflixClone,
   samuraiKill,
   quizbuzz,
+  infinity_learn
 } from "../assets";
 
 export const navLinks = [
@@ -143,6 +144,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Developer Engineer",
+    company_name: "Infinity Learn",
+    icon: infinity_learn,
+    iconBg: "#ffffff",
+    date: "Jun 2024 - Present",
+    points: [
+      "Designed and deployed a serverless event-driven architecture (AWS Lambda + SQS) that scales to 400K+ weekly ML predictions, integrating seamlessly with LeadSquared CRM.",
+      "Handled the User Management Service for 4 Million+ users, improving onboarding, authentication, and overall platform experience.",
+      "Secured 200K+ daily requests with JWE encryption and built Tenant Management Service to streamline school onboarding and drive expansion.",
+      "Implemented smart rate limiting in a stateless OTP service using Redis, reducing service misuse by 44%."
+    ],
+  },
   {
     title: "Product Engineer Intern",
     company_name: "MyRik",

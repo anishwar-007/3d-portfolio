@@ -38,6 +38,7 @@ import medigram from "./medigram.png";
 import netflixClone from "./netflix-clone.png";
 import samuraiKill from "./samurai-kill.png";
 import quizbuzz from "./quizbuzz.png";
+import infinity_learn from "./company/infinity_learn.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   samuraiKill,
   quizbuzz,
   project,
+  infinity_learn
 };
